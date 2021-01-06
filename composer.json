@@ -1,0 +1,26 @@
+{
+    "name": "cerwyn/ping",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Cerwyn Eliata",
+            "email": "56788659+Cerwyn@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Cerwyn\\Ping\\": "src"
+        }
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "Cerwyn\\Ping\\PackageServiceProvider"
+          ],
+          "aliases": {
+              "Ping": "Cerwyn\\Ping\\src\\Facades\\PingFacade"
+          }
+      }
+  }
+}
