@@ -1,6 +1,6 @@
 # Test Package
 ## References
-- Coming Soon (Medium)
+- [Medium](https://cerwyn.medium.com/creating-laravel-package-from-scratch-4582607639cf)
 ## How to Load
 - In composer.json, add this:
 ```
